@@ -108,6 +108,7 @@ padding: 0;
     background-color: white;
     display: flex; 
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .body-body .about-us img{
@@ -188,9 +189,37 @@ padding: 0;
     margin-bottom: 90px;
 }
 
-.body-body .page{
+.body-body .menu-pricing{
     height: 810px;
     background-color: white; 
+    padding: 0px 100px;
+}
+
+.pricing{
+    padding: 50px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.body-body .page{
+    height: 880px;
+    background-color: white;
+    margin-top: 200px;
+}
+
+.page{
+    padding: 100px 100px 100px 100px;
+
+}
+
+.cliens{
+    padding-bottom: 100px;
+}
+
+.chefs button{
+    color: white;
 }
 
 .body-body .contact{
@@ -331,7 +360,14 @@ padding: 0;
     width: 150px;
 }
 
+.d-grid button{
+    background-color: var(--second-bg-color);
+    border-color: var(--second-bg-color);
+}
 
+.d-grid button::before{
+    background-color: rgb(0, 180, 120);
+}
 
 
 
