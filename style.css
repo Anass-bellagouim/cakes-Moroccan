@@ -48,7 +48,7 @@ padding: 0;
 }
 
 .header-bottom{
-    height: 6vh;
+    height: 4vh;
     width: 100%;
     background-color:var(--second-bg-color);
 }
@@ -58,12 +58,6 @@ padding: 0;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding-top: 2vh;
-}
-
-.liste-navbar-bottom div a{
-    text-decoration: none;
-    color: var(--bg-color);
 }
 
 .body-body .home{
@@ -193,6 +187,7 @@ padding: 0;
     height: 810px;
     background-color: white; 
     padding: 0px 100px;
+    padding-top: 100px;
 }
 
 .pricing{
@@ -206,7 +201,7 @@ padding: 0;
 .body-body .page{
     height: 880px;
     background-color: white;
-    margin-top: 200px;
+    margin-top: 500px;
 }
 
 .page{
@@ -225,7 +220,66 @@ padding: 0;
 .body-body .contact{
     height: 880px;
     background-color: white; 
+    display: flex;
+    margin-top: 500px;
+    margin-bottom: 20px;
 }
+
+.body-body .localisation{
+    height: 880px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-body .localisation iframe{
+    height: 600px;
+    width: 80%;
+    border-radius: 16px;
+}
+
+.body-body .contact-us{
+    height: 880;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.contact-us .input-box input{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    border-color: #ff7b7b;
+    border-radius: 16px;
+}
+
+.cont{
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color: #ff7b7b;
+    border-color: #ff7b7b;
+    padding: 6px;
+    border-radius: 16px;
+    margin-top: 10px;
+    color: white;
+}
+
+.lwast{
+    text-align: center;
+}
+
+.marg{
+    margin-bottom: 70px;
+}
+
 
 .line-logo{
     background-color: var(--second-bg-color);

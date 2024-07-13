@@ -44,11 +44,49 @@
             <!-- for navbar bottom -->
             <div class="navbar-bottom">
                <div class="liste-navbar-bottom">
-                    <div><a href="">PERSONALIZED CAKE</a></div>
-                    <div><a href="">GIFT CAKE</a></div>
-                    <div><a href="">CAKE SUPPLIES</a></div>
-                    <div><a href="">PERSONAL CHOICE</a></div>
-               </div>
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" style="background-color: #ff7b7b; border-color: #ff7b7b;"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PERSONALIZED CAKE
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="cakes.html">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" style="background-color: #ff7b7b; border-color: #ff7b7b;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    GIFT CAKE
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" style="background-color: #ff7b7b; border-color: #ff7b7b;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CAKE SUPPLIES
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" style="background-color: #ff7b7b; border-color: #ff7b7b;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PERSONAL CHOICE
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
                 
             </div>
         </header>
@@ -117,8 +155,11 @@
 
             <!-- her for menu and pricing -->
             <div class="menu-pricing" id="menu-pricing">
+              <div class="titre-paragraph lwast">
+                <h1>PRICE</h1>
+              </div>
                 <div class="pricing">
-                    <div class="menu">
+                   
                         <div class="row row-cols-1 row-cols-md-4 g-4">
                             <div class="col">
                               <div class="card text-bg-light mb-3" style="max-width: 18rem;">
@@ -157,9 +198,12 @@
                               </div>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
-
+                <div class="titre-paragraph lwast marg">
+                  <h1>MENU</h1>
+                </div>
+                
                 <div class="menu">
                     <div class="row row-cols-1 row-cols-md-4 g-4">
                         <div class="col">
@@ -212,7 +256,9 @@
             <!-- her for our client’s suy and mester chefs -->
             <div class="page" id="page">
                 
-            
+              <div class="titre-paragraph lwast marg">
+                <h1>CLIENS</h1>
+              </div>
                 <div class="cliens">
                   <div class="row row-cols-1 row-cols-md-6 g-4">
                     <div class="col">
@@ -266,6 +312,9 @@
                 </div>
               </div>
 
+              <div class="titre-paragraph lwast marg">
+                <h1>CHEFS</h1>
+              </div>
                 <div class="chefs">
                   <div class="row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
@@ -330,11 +379,54 @@
             <!-- her for my contact -->
             <div class="contact" id="contact">
                 <div class="localisation">
-
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27507.95857273196!2d-8.897509729362259!3d30.47874386684489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb17309901e7a19%3A0x9b0fdf4f4b50237a!2sTaroudant!5e0!3m2!1sfr!2sma!4v1720815432754!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
-                <div class="contact">
+                <div class="contact-us">
+                   
                   
+                    <form action="#">
+                      <div class="titre-paragraph">
+                        <h1 class="cont">Contact <span>Me!</span>
+                        </h1>
+                      </div>
+                      <div class="input-box">
+                        <div class="input-field">
+                          <input type="text" placeholder="Full Name" id="name" required>
+                          <span class="focus"></span>
+                        </div>
+                  
+                        <div class="input-field">
+                          <input type="text" placeholder="Email Address" id="email" required>
+                          <span class="focus"></span>
+                        </div>
+                      </div>
+                  
+                      <div class="input-box">
+                        <div class="input-field">
+                          <input type="text" placeholder="Mobile Number" id="phone" required>
+                          <span class="focus"></span>
+                        </div>
+                  
+                        <div class="input-field">
+                          <input type="text" placeholder="Email Subject" id="subject" required>
+                          <span class="focus"></span>
+                        </div>
+                      </div>
+                  
+                      <div class="textarea-field">
+                        <textarea style="border-color: #ff7b7b; border-radius: 16px; border: 3px solid #ff7b7b;" cols="60 50"  name="" id="message" cols="30" rows="10"  placeholder="Your Message" required></textarea>
+                        <span class="focus"></span>
+                      </div>
+                  
+
+                        <button class="button" type="submit">Send Message</button>
+
+                    
+                  </div>
+                    
+                    </form>
+                        
                 </div>
 
             </div>
@@ -415,6 +507,8 @@
 
     </div>
 
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
 </html>
